@@ -111,7 +111,7 @@ async def bot_start(event):
                         \nيمكنك التواصل مع ي من خلال هذا البوت"
         buttons = [
             (
-                Button.url("• السورس •", "https://t.me/EE_20"),
+                Button.url("• السورس •", "https://t.me/UI_VM"),
                 Button.url(
                     "• المطور •",
                     "https://t.me/WWWL5",
@@ -122,7 +122,7 @@ async def bot_start(event):
         start_msg = "**اهلا بك مالك البوت هذه هي اعدادات البوت**"
         buttons = [
             [
-                Button.url("• السورس •", "https://t.me/EE_20"),
+                Button.url("• السورس •", "https://t.me/UI_VM"),
             ],
             [
                 Button.inline("• اوامر البوت •", data="CMDBOT"),
