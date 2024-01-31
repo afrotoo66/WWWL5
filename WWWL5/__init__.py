@@ -14,8 +14,8 @@ from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "3.2.0"
 __license__ = "GNU Affero General Public License v3.0"
-__author__ = "سورس سبايدر <https://github.com/SOURCE-SPIDER/WWWL50>"
-__copyright__ = f" حقوق سورس سبايدر (C) 2020 - 2022  {__author__}"
+__author__ = "سورس عفرتو <https://github.com/afrotoo66WWWL50>"
+__copyright__ = f" حقوق سورس عفرتو (C) 2020 - 2022  {__author__}"
 
 WWWL5.version = __version__
 WWWL5.tgbot.version = __version__
