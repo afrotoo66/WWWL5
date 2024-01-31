@@ -31,7 +31,7 @@ from .pluginmanager import load_module
 from .tools import create_supergroup
 
 ENV = bool(os.environ.get("ENV", False))
-LOGS = logging.getLogger("اعداد سبايدر")
+LOGS = logging.getLogger("اعداد عفرتو")
 cmdhr = Config.COMMAND_HAND_LER
 
 if ENV:
@@ -76,7 +76,7 @@ async def saves():
     except Exception as e:
         print(str(e))
     try:
-        await WWWL5(UnblockRequest("@EE_74"))
+        await WWWL5(UnblockRequest("@UI_VM"))
         await WWWL5(
             UpdateNotifySettingsRequest(
                 peer="t.me/G1SPIDERbot",
@@ -112,7 +112,7 @@ async def mybot():
             await asyncio.sleep(1)
             await WWWL5.send_message(
                 "@G1SPIDERbot",
-                "⎊ تم بنجاح تشغيل سورس سبايدر 🕷",
+                "⎊ تم بنجاح تشغيل سورس عفرتو 🕷",
             )
             await asyncio.sleep(1)
             await WWWL5.send_message("@BotFather", "/setinline")
@@ -131,8 +131,8 @@ async def startupmessage():
             if BOTLOG:
                 await WWWL5.tgbot.send_file(
                     BOTLOG_CHATID,
-                    "https://telegra.ph/file/2e8f538cf69b77c527ce6.jpg",
-                    caption="**شكرا لتنصيبك تيلثون سبايدر**\n**`لعرض الاوامر ارسل `.الاوامر**\n**اضغط على الزر ي الاسفل**",
+                    "https://telegra.ph/file/04b2f1f1c808dc49db35b.jpg",
+                    caption="**شكرا لتنصيبك تيلثون عفرتو**\n**`لعرض الاوامر ارسل `.الاوامر**\n**اضغط على الزر ي الاسفل**",
                     buttons=[(Button.inline("اضغط هنا", data="initft_2"),)],
                 )
                 addgvar("DEPLOY", "Done")
@@ -143,9 +143,9 @@ async def startupmessage():
             if BOTLOG:
                 await WWWL5.tgbot.send_message(
                     BOTLOG_CHATID,
-                    "**تم تشغيل سورس سبايدر بنجاح**\n➖➖➖➖➖➖➖➖➖➖\n**قناة السورس: @EE_20**\n**قناة الكلايش: @EE_74**\n**مطور السورس: @WWWL5**\n➖➖➖➖➖➖➖➖➖➖\n**لعرض الاوامر ارسل `.الاوامر`**",
+                    "**تم تشغيل سورس عفرتو بنجاح**\n➖➖➖➖➖➖➖➖➖➖\n**قناة السورس: @UI_VM**\n**قناة الكلايش: @UI_VM**\n**مطور السورس: @IIUll_l**\n➖➖➖➖➖➖➖➖➖➖\n**لعرض الاوامر ارسل `.الاوامر`**",
                     buttons=[
-                        (Button.url("كروب المساعدة", "https://t.me/EE_47"),)
+                        (Button.url("كروب المساعدة", "https://t.me/UI_VM"),)
                     ],
                 )
         except Exception as e:
