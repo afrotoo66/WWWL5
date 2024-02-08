@@ -1,6 +1,6 @@
-FROM SOURCE-SPIDER/WWWL5:slim-buster
+FROM afrotoo66/WWWL5:slim-buster
 
-RUN git clone https://github.com/SOURCE-SPIDER/WWWL5.git /root/WWWL5
+RUN git clone https://github.com/afrotoo66/WWWL5.git /root/WWWL5
 
 WORKDIR /root/WWWL5
 
